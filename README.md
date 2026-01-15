@@ -19,4 +19,6 @@ FastAPI based REST API to read, filter and analyze log files.
 
 4. pip install -r requirements.txt
 
-5. uvicorn app.main:app --reload
+5. pip install fastapi uvicorn pydantic
+
+6. uvicorn app.main:app --reload
