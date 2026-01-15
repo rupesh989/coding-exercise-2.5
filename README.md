@@ -11,5 +11,12 @@ FastAPI based REST API to read, filter and analyze log files.
 
 ## Run locally
 ```bash
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+1. python -m venv venv
+
+2. venv\Scripts\activate
+
+3. pip freeze > requirements.txt
+
+4. pip install -r requirements.txt
+
+5. uvicorn app.main:app --reload
